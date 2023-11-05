@@ -41,7 +41,7 @@ app.use((req, res, next) => {
 
 mongoose
   .connect(
-    "mongodb+srv://asif:Asif6070@atlascluster.iko5pu8.mongodb.net/expenseApp?retryWrites=true&w=majority"
+    "mongodb+srv://ayanaliansari99:aaadktda@cluster0.mzdxczh.mongodb.net/?retryWrites=true&w=majority"
   )
   .then(() => {
     app.listen(3000);
